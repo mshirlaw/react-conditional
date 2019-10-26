@@ -83,15 +83,15 @@ import Conditional from 'react-conditional-block';
 const App = ({somethingTruthy, somethingFalsy}) => {
   return (
     <div>
-	  <Conditional
-	    predicate={somethingTruthy}>
-		  I am rendered!
-	  </Conditional>
-	  <Conditional 
-	    predicate={somethingFalsy}>
-	      I am NOT rendered!
-	  </Conditional>
-	</div>
+      <Conditional
+        predicate={somethingTruthy}>
+          I am rendered!
+      </Conditional>
+      <Conditional
+        predicate={somethingFalsy}>
+          I am NOT rendered!
+      </Conditional>
+    </div>
   );
 };
 
