@@ -1,5 +1,5 @@
 {
-  "name": "react-conditional",
+  "name": "react-conditional-block",
   "version": "0.0.1",
   "description": "A light weight conditional block component to help you clean up your react code",
   "main": "./build/index.js",
@@ -7,9 +7,9 @@
     "test": "jest",
     "test-watch": "jest --watch",
     "start": "webpack --watch",
-	"prepublishOnly" : "npm run test",
-    "prepare" : "npm run build",
-	"build": "webpack --mode production"
+    "prepublishOnly": "npm run test",
+    "prepare": "npm run build",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "react",
@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mshirlaw/react-conditional.git"
+    "url": "https://github.com/mshirlaw/react-conditional-block.git"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -42,7 +42,7 @@
     "react": "^16.11.0"
   },
   "bugs": {
-    "url": "https://github.com/mshirlaw/react-conditional/issues"
+    "url": "https://github.com/mshirlaw/react-conditional-block/issues"
   },
-  "homepage": "https://github.com/mshirlaw/react-conditional"
+  "homepage": "https://github.com/mshirlaw/react-conditional-block"
 }
