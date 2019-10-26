@@ -50,16 +50,16 @@ const Component = ({first, second, third, ...rest}) => {
   return (
     <div>
       <Conditional predicate={first}>
-	    <First {...rest} />
-	  </Conditional>
+        <First {...rest} />
+      </Conditional>
       <Conditional predicate={second}>
         <Second {...rest}>
           <Conditional predicate={third}>
-		    <Third {...third} />
-		</Conditional>
-            <Other>
-              <div>Inner</div>
-            </Other>
+            <Third {...third} />
+          </Conditional>
+          <Other>
+            <div>Inner</div>
+          </Other>
         </Second>
       </Conditional>
     </div>
