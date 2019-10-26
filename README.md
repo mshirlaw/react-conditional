@@ -83,7 +83,7 @@ import Conditional from 'react-conditional-block';
 const App = ({somethingTruthy, somethingFalsy}) => {
   return (
     <div>
-      <Conditional
+	  <Conditional
 	    predicate={somethingTruthy}>
 		  I am rendered!
 	  </Conditional>
