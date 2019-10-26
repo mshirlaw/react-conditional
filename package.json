@@ -4,7 +4,8 @@
   "description": "A light weight conditional block component to help you clean up your react code",
   "main": "./build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test-watch": "jest --watch",
     "start": "webpack --watch",
     "build": "webpack --mode production"
   },
@@ -13,7 +14,7 @@
     "conditional"
   ],
   "author": "Matt Shirlaw",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/mshirlaw/react-conditional.git"
@@ -22,11 +23,15 @@
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
+    "@testing-library/jest-dom": "^4.2.0",
+    "@testing-library/react": "^9.3.0",
     "babel-loader": "^8.0.6",
     "eslint": "^6.6.0",
     "eslint-plugin-react": "^7.16.0",
+    "jest": "^24.9.0",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9"
   },
