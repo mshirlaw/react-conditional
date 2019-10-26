@@ -10,7 +10,7 @@ For example, with React Conditional Block, something which might originally have
 
 ```js
 import React from 'react';
-import {First, Second, Thirdm, Other} from 'some-components';
+import {First, Second, Third, Other} from 'some-components';
 
 const Component = ({first, second, third, ...rest}) => {
   return (
