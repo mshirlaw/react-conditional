@@ -7,7 +7,9 @@
     "test": "jest",
     "test-watch": "jest --watch",
     "start": "webpack --watch",
-    "build": "webpack --mode production"
+	"prepublishOnly" : "npm run test",
+    "prepare" : "npm run build",
+	"build": "webpack --mode production"
   },
   "keywords": [
     "react",
