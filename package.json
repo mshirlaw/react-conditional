@@ -23,9 +23,11 @@
     "webpack-cli": "^3.3.9"
   },
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.11.0"
   },
   "peerDependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.11.0"
   }
 }
