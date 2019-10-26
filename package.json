@@ -14,20 +14,28 @@
   ],
   "author": "Matt Shirlaw",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mshirlaw/react-conditional.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
     "babel-loader": "^8.0.6",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.16.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9"
-  },
-  "dependencies": {
-    "prop-types": "^15.7.2",
-    "react": "^16.11.0"
   },
   "peerDependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.11.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/mshirlaw/react-conditional/issues"
+  },
+  "homepage": "https://github.com/mshirlaw/react-conditional"
 }
