@@ -43,16 +43,20 @@ Becomes something like this:
 
 ```js
 import React from 'react';
-import {First, Second, Thirdm, Other} from 'some-components';
+import {First, Second, Third, Other} from 'some-components';
 import Conditional from 'react-conditional-block';
 
 const Component = ({first, second, third, ...rest}) => {
   return (
     <div>
-      <Conditional predicate={first}><First {...rest} /></Conditional>
+      <Conditional predicate={first}>
+	    <First {...rest} />
+	  </Conditional>
       <Conditional predicate={second}>
         <Second {...rest}>
-          <Conditional predicate={third}><Third {...third} /></Conditional>
+          <Conditional predicate={third}>
+		    <Third {...third} />
+		</Conditional>
             <Other>
               <div>Inner</div>
             </Other>
@@ -77,12 +81,18 @@ import React from 'react';
 import Conditional from 'react-conditional-block';
 
 const App = ({somethingTruthy, somethingFalsy}) => {
-	return (
-		<div>
-			<Conditional predicate={somethingTruthy}>I am rendered!</Conditional>
-			<Conditional predicate={somethingFalsy}>I am NOT rendered!</Conditional>
-		</div>
-	);
+  return (
+    <div>
+      <Conditional
+	    predicate={somethingTruthy}>
+		  I am rendered!
+	  </Conditional>
+	  <Conditional 
+	    predicate={somethingFalsy}>
+	      I am NOT rendered!
+	  </Conditional>
+	</div>
+  );
 };
 
 export default App;
