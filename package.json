@@ -22,20 +22,20 @@
     "url": "https://github.com/mshirlaw/react-conditional-block.git"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "@babel/preset-react": "^7.6.3",
-    "@testing-library/jest-dom": "^4.2.0",
-    "@testing-library/react": "^9.3.0",
-    "babel-loader": "^8.0.6",
-    "eslint": "^6.6.0",
-    "eslint-plugin-react": "^7.16.0",
+    "@babel/core": "~7.9.0",
+    "@babel/preset-env": "~7.9.0",
+    "@babel/preset-react": "~7.9.4",
+    "@testing-library/jest-dom": "~4.2.4",
+    "@testing-library/react": "~9.5.0",
+    "babel-loader": "~8.1.0",
+    "eslint": "~6.8.0",
+    "eslint-plugin-react": "~7.19.0",
     "jest": "~24.9.0",
     "prop-types": "^15.7.2",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "react": "~16.13.1",
+    "react-dom": "~16.13.1",
+    "webpack": "~4.42.1",
+    "webpack-cli": "~3.3.11"
   },
   "peerDependencies": {
     "prop-types": "^15.7.2",
