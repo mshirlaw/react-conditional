@@ -1,6 +1,6 @@
 {
   "name": "react-conditional-block",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A light weight conditional block component to help you clean up your react code",
   "main": "./build/index.js",
   "scripts": {
